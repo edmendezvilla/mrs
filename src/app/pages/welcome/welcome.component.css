@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(236, 218, 223);
+   
+    align-items: center;
+    justify-content: center;
+}
+.grid-layout{
+    grid-template-columns: auto auto auto  ;
+    grid-template-rows: auto  ;
+    
+
+    display:grid;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(210, 214, 193);
+    padding: 20px;
+    border: 1px solid rgb(24, 22, 22);
+    justify-content: stretch ;
+}
+
+.caja{
+    grid-column: 1 /4;
+    background-color: rgb(57, 235, 22);
+    color: rgb(8, 119, 86);
+    
+    margin: 20px;
+    border: 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+   
+
+    
+}
+#caja1{ 
+    grid-column: 1/4;
+    border: 2px solid rgb(7, 7, 6);
+
+    background-color: rgb(200, 233, 13);
+width: 700px;
+height: 100px;}
+
+    
+        #caja3{  
+        grid-column:1/4 ;
+            border: 2px solid rgb(27, 26, 26);
+           
+            background-color: rgb(10, 236, 48);
+            width: 700px;
+            height: 100px;}
+#rectangulo{
+    text-align: center;
+    align-items: center;
+   
+    
+background-color: rgb(73, 11, 47);
+
+border: 5px solid rgb(27, 26, 26);
+border-radius: 20px;
+
+
+}
+.Casabe{
+    padding:10px ;
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+#rectangulo2{
+    text-align: center;
+    align-items: center;
+   
+    
+background-color: rgb(233, 42, 137);
+
+border: 5px solid black;
+border-radius: 20px;}
+.choza{
+    padding:10px ;
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;}
+#rectangulo3{
+    text-align: center;
+    align-items: center;
+    
+    
+background-color: rgb(134, 133, 136);
+
+border: 5px solid rgb(27, 26, 26);
+border-radius: 20px;}
+.delfinrosa{
+    padding:10px ;
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;}
+
+    .vestimenta{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+       
+        
+    }
+    #rectangulo4{
+
+        grid-column: 1/4;
+        grid-row: span 3;
+
+        background-color: rgb(28, 17, 177);
+       
+        border: solid 5px rgb(45, 46, 45);   
+    }
